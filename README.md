@@ -56,8 +56,27 @@ This macro allows you to quickly save your active Word document as a PDF with th
 
 ---
 
-## Customization
+## Configuring Ctrl+Alt+P to Run the Macro
+
+To make the macro run with the **Ctrl+Alt+P** keyboard shortcut, follow these steps:
+
+1. **Assign the Macro to Ctrl+Alt+P**:
+   - Open Word and go to the `File` tab.
+   - Click on `Options` to open Word's settings.
+   - In the `Word Options` window, select `Customize Ribbon`.
+   - Click on the `Customize...` button next to `Keyboard shortcuts` at the bottom of the window.
+   - In the `Customize Keyboard` window, under the "Categories" list, select `Macros`.
+   - In the "Macros" list, select the `SaveAsPDF` macro.
+   - Click in the "Press new shortcut key" field and press **Ctrl+Alt+P**.
+   - If the shortcut is already assigned to something else, you can choose to overwrite it or pick another combination.
+   - Click `Assign` and then `Close`.
+
+2. **Use Ctrl+Alt+P**:
+   - Now, you can simply press **Ctrl+Alt+P** anytime you want to save your active Word document as a PDF.
+
+---
+
+### Customization
 
 You can customize the file-saving location or add more export settings based on your needs. For example, you can modify the `pdfPath` to save the PDF in a different folder.
 
----
